@@ -1,14 +1,93 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Fotos</title>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CaldoShow</title>
+
     <script src="https://kit.fontawesome.com/6547a7e440.js" crossorigin="anonymous"></script>
-    <link rel="stylesheet" href="style.css">
-</head>
-<body>
+    <link rel="stylesheet" href="style.css" />
+
+  </head>
+  <body>
+
+        <nav>
+            <img class="logo" src="imagens/logo-navbar.png" alt="">
+
+          <div class="nav-item">
+            <li class="nav-links"><a href="index.html">Inicio</a></li>
+            <li class="nav-links"><a href="nos.html">Sobre</a></li>
+            <li class="nav-links"><a href="apresentacoes.html">Apresentações</a></li>
+            <li class="nav-links"><a href="videos.html">Videos</a></li>
+          </div>
+
+
+          <div id="myNav" class="overlay">
+            <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+            <div class="overlay-content">
+              <a href="index.html">Inicio</a>
+              <a href="nos.html">Sobre</a>
+              <a href="apresentacoes.html">Apresentações</a>
+              <a href="videos.html">Videos</a>
+            </div>
+          </div>
+          <button class="nav-button" onclick="openNav()">
+            <i class="fa-solid fa-bars fa-2x"></i>
+          </button>
+        </nav>
+
+        <div id="container-page-imagens">
+            <img class="page-imagens" src="imagens/front1.jpg" alt="">
+            <img class="page-imagens" src="imagens/front2.jpg" alt="">
+            <img class="page-imagens" src="imagens/front3.jpeg" alt="">
+            <img class="page-imagens" src="imagens/front4.jpeg" alt="">
+            <img class="page-imagens" src="imagens/grupo-todo.jpg" alt="">
+            <img class="page-imagens" src="imagens/WhatsApp Image 2023-06-06 at 11.18.55.jpeg" alt="">
+            <img class="page-imagens" src="imagens/WhatsApp Image 2023-06-06 at 11.18.57.jpeg" alt="">
+            <img class="page-imagens" src="imagens/WhatsApp Image 2023-06-06 at 11.18.58 (1).jpeg" alt="">
+            <img class="page-imagens" src="imagens/WhatsApp Image 2023-06-06 at 11.18.58 (2).jpeg" alt="">
+            <img class="page-imagens" src="imagens/WhatsApp Image 2023-06-06 at 11.18.58.jpeg" alt="">
+            <img class="page-imagens" src="imagens/WhatsApp Image 2023-06-06 at 11.29.25 (1).jpeg" alt="">
+            <img class="page-imagens" src="imagens/WhatsApp Image 2023-06-06 at 11.29.25 (2).jpeg" alt="">
+            <img class="page-imagens" src="imagens/WhatsApp Image 2023-06-06 at 11.29.25.jpeg" alt="">
+            <img class="page-imagens" src="imagens/WhatsApp Image 2023-06-06 at 11.29.32 (1).jpeg" alt="">
+            <img class="page-imagens" src="imagens/WhatsApp Image 2023-06-06 at 11.29.32 (2).jpeg" alt="">
+            <img class="page-imagens" src="imagens/WhatsApp Image 2023-06-06 at 11.29.32.jpeg" alt="">
+            <img class="page-imagens" src="imagens/WhatsApp Image 2023-06-06 at 11.29.33 (1).jpeg" alt="">
+            <img class="page-imagens" src="imagens/WhatsApp Image 2023-06-06 at 11.29.33.jpeg" alt="">
+            <img class="page-imagens" src="imagens/WhatsApp Image 2023-06-06 at 11.29.34 (1).jpeg" alt="">
+            <img class="page-imagens" src="imagens/WhatsApp Image 2023-06-06 at 11.29.34.jpeg" alt="">
+            <img class="page-imagens" src="imagens/WhatsApp Image 2023-06-06 at 11.29.35 (1).jpeg" alt="">
+            <img class="page-imagens" src="imagens/WhatsApp Image 2023-06-06 at 11.29.35 (2).jpeg" alt="">
+            <img class="page-imagens" src="imagens/WhatsApp Image 2023-06-06 at 11.29.35.jpeg" alt="">
+            <img class="page-imagens" src="imagens/WhatsApp Image 2023-06-06 at 11.29.36 (1).jpeg" alt="">
+            <img class="page-imagens" src="imagens/WhatsApp Image 2023-06-06 at 11.29.36 (2).jpeg" alt="">
+            <img class="page-imagens" src="imagens/WhatsApp Image 2023-06-06 at 11.29.36.jpeg" alt="">
+            <img class="page-imagens" src="imagens/WhatsApp Image 2023-06-06 at 11.29.37 (1).jpeg" alt="">
+            <img class="page-imagens" src="imagens/WhatsApp Image 2023-06-06 at 11.29.37 (2).jpeg" alt="">
+            <img class="page-imagens" src="imagens/WhatsApp Image 2023-06-06 at 11.29.37.jpeg" alt="">
+            <img class="page-imagens" src="imagens/WhatsApp Image 2023-06-06 at 11.29.38 (1).jpeg" alt="">
+            <img class="page-imagens" src="imagens/WhatsApp Image 2023-06-06 at 11.29.38 (2).jpeg" alt="">
+            <img class="page-imagens" src="imagens/WhatsApp Image 2023-06-06 at 11.29.38.jpeg" alt="">
+            <img class="page-imagens" src="imagens/WhatsApp Image 2023-06-06 at 11.29.39 (1).jpeg" alt="">
+            <img class="page-imagens" src="imagens/WhatsApp Image 2023-06-06 at 11.29.39.jpeg" alt="">
+            <img class="page-imagens" src="imagens/WhatsApp Image 2023-06-06 at 11.30.38.jpeg" alt="">
+            <img class="page-imagens" src="imagens/WhatsApp Image 2023-06-06 at 11.30.56 (2).jpeg" alt="">
+            <img class="page-imagens" src="imagens/WhatsApp Image 2023-06-06 at 11.30.57 (1).jpeg" alt="">
+        </div>
+
+
+    <footer class="container-footer">
+      <a class="links-footer" href="https://www.instagram.com/grupo_caldo_show/"><img class="img-footer" src="imagens/icons8-instagram-36.png" alt=""></a>
+
+      <a class="links-footer" href="https://www.facebook.com/caldoshow.caldoshow"><img class="img-footer" src="imagens/icons8-facebook-64.png" alt=""></a>
+
+      <a class="links-footer" href="https://api.whatsapp.com/send?phone=5551989359992&text=Ol%C3%A1,%20gostaria%20de%20saber%20mais%20sobre%20as%20aulas."><img class="img-footer" src="imagens/icons8-whatsapp-48.png" alt=""></a>
+
+      <a href=""></a>
+    </footer>
     
-</body>
+  </body>
+  <script src="js/menu.js"></script>
 </html>

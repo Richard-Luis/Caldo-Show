@@ -285,6 +285,8 @@ div.dia-das-aulas{
   }
 }
 
+/* Aqui começa a estilização da page Sobre nós */
+
 .h1nos{
     color: white;
     text-align: center;
@@ -306,6 +308,24 @@ div.dia-das-aulas{
 .strongnos{
     color: rgba(114, 114, 111, 0.774);
 }
+
+
+
+
+/* Aqui começa a estilização da página Fotos */
+
+#container-page-imagens{
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+}
+
+.page-imagens{
+  width: 500px;
+  height: 600px;
+  margin: 20px;
+}
+
+
 
 footer.container-footer{
   background-color: white;
