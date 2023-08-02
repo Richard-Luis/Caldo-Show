@@ -314,18 +314,50 @@ div.dia-das-aulas{
 
 /* Aqui começa a estilização da página Fotos */
 
-#container-page-imagens{
+#galeria{
   display: grid;
   grid-template-columns: repeat(3,1fr);
 }
 
-.page-imagens{
-  width: 500px;
-  height: 600px;
+.container-page-imagens{
   margin: 20px;
 }
 
+.page-imagens{
+  width: 100%;
+  height: 600px;
+}
 
+.fechar{
+  display: none;
+}
+
+.container-page-imagens:target{
+  position: fixed;
+  width: 50%;
+  top: 15%;
+  left: 25%;
+  padding: 5px;
+  border: solid 1px #333;
+  box-shadow: 0 0 25px 10px black;
+  background: white;
+  border-radius: 10px;
+  }
+
+  .container-page-imagens:target .fechar{
+    display: block;
+  }
+
+  @media screen and (max-width:1400px){
+    .container-page-imagens{
+      width: 70%;
+    }
+    .page-imagens{
+      width: 100%;
+      height: 600px;
+    }
+    
+  }
 
 footer.container-footer{
   background-color: white;
