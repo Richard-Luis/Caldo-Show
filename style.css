@@ -334,10 +334,11 @@ div.dia-das-aulas{
 
 .container-page-imagens:target{
   position: fixed;
-  width: 50%;
+  width: 27%;
+  height: 600px;
   top: 15%;
-  left: 25%;
-  padding: 5px;
+  left: 35%;
+  padding: 5px 5px 30px 5px;
   border: solid 1px #333;
   box-shadow: 0 0 25px 10px black;
   background: white;
@@ -356,7 +357,35 @@ div.dia-das-aulas{
       width: 100%;
       height: 100%;
     }
+
+    .container-page-imagens:target{
+      position: fixed;
+      width: 40%;
+      height: 600px;
+      top: 15%;
+      left: 35%;
+      padding: 5px 5px 30px 5px;
+      border: solid 1px #333;
+      box-shadow: 0 0 25px 10px black;
+      background: white;
+      border-radius: 10px;
+      }
     
+  }
+
+  @media screen and (max-width: 800px){
+    .container-page-imagens:target{
+      position: fixed;
+      width: 40%;
+      height: 500px;
+      top: 15%;
+      left: 35%;
+      padding: 5px 5px 30px 5px;
+      border: solid 1px #333;
+      box-shadow: 0 0 25px 10px black;
+      background: white;
+      border-radius: 10px;
+      }
   }
 
   @media screen and (max-width: 712px){
@@ -364,6 +393,18 @@ div.dia-das-aulas{
       display: grid;
       grid-template-columns: repeat(2,2fr);
     }
+    .container-page-imagens:target{
+      position: fixed;
+      width: 60%;
+      height: 500px;
+      top: 15%;
+      left: 15%;
+      padding: 5px 5px 30px 5px;
+      border: solid 1px #333;
+      box-shadow: 0 0 25px 10px black;
+      background: white;
+      border-radius: 10px;
+      }
   }
 
 #galeria-videos{
